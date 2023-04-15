@@ -1,0 +1,152 @@
+body, html {
+    height: 100%;
+}
+.container div{
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    width: 100px;
+   
+
+
+}
+.bg{
+    background-image: url("../img/bg.jpg");
+    filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+   
+    text-align: center
+}
+#container h1{
+    font-family: cursive;
+}
+#container div{
+    display: flex;
+    flex-direction: column;
+   
+}
+#container button{
+    /*margin: 20px;*/
+    text-align: center;
+    padding: 40px;
+}
+.lv1{
+    /*margin-top: 20px;*/
+    background: url("../img/btn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    border: none;
+   
+}
+.lv2{
+    /*margin-top: 20px;*/
+    background: url("../img/btn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    border: none;
+    
+}.lv3{
+    /*margin-top: 20px;*/
+    background: url("../img/btn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    border: none;
+   
+}
+#gameContainer{
+   background-image: url("../img/wood.jpg");
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 70%;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    height: auto;
+
+}
+#back{
+    position: absolute;
+    top: -50%;
+    left: 100%;
+}
+#score{
+    position: absolute;
+    top: -60%;
+    right: 100%;
+    font-family: cursive;
+    color: white;
+}
+#optionButton button{
+    margin-left: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    border:none;
+}
+#optionButton button:hover{
+    cursor:pointer;
+}
+#nextBtn{
+    margin-top: 20px;
+    background: url("../img/btn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    border: none;
+    padding: 40px;
+}
+#nextBtn:hover{
+    cursor: pointer;
+}
+#nextLevel{
+    margin-left: 40%;
+    margin-top: 20px;
+    background: url("../img/btn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    border: none;
+    padding: 35px;
+}
+.questionContainer h1{
+    font-family: cursive;
+}
+.hide{
+    display: none;
+}
+.correct{
+    background-color: rgb(14, 212, 14);;
+}
+.wrong{
+    background-color: rgb(241, 33, 33);
+}
